@@ -4,6 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rutul Manani Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        main {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        aside {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        aside div {
+            margin-bottom: 20px;
+        }
+
+        aside h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        aside h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        aside p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li::before {
+            content: "\2022"; /* Unicode for bullet point */
+            color: #0078D7;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-right: 0.5em;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            aside {
+                padding: 15px;
+            }
+
+            aside h1, aside h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -11,32 +100,17 @@
     </main>
     <aside>
         <div>
-            <h1>
-                Hi, I am Rutul!
-            </h1>
-            <p>
-                I love solving real-world problems through design and exploring new trends in UX/UI.
-            </p>
+            <h1>Hi, I am Rutul!</h1>
+            <p>I love solving real-world problems through design and exploring new trends in UX/UI.</p>
         </div>
         <div>
             <h2>About Me</h2>
-            <p>
-                <ul>
-                    <li>
-                        📚 Currently pursuing a Postgraduate Certificate in UX Design at Humber College
-                    </li>
-                    <li>
-                        🎨 Background in Industrial & Product Design with 2.5+ years of experience
-                    </li>
-                    <li>
-                        🔍 Focused on User-Centered Design, Prototyping, and Usability Testing
-                    </li>
-                    <li>
-                        🖥 Exploring Front-End Development to bridge the gap between design & code
-                    </li>
-                    
-                </ul>
-            </p>
+            <ul>
+                <li>📚 Currently pursuing a Postgraduate Certificate in UX Design at Humber College</li>
+                <li>🎨 Background in Industrial & Product Design with 2.5+ years of experience</li>
+                <li>🔍 Focused on User-Centered Design, Prototyping, and Usability Testing</li>
+                <li>🖥 Exploring Front-End Development to bridge the gap between design & code</li>
+            </ul>
         </div>
     </aside>
 </body>
